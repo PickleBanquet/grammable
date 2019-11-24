@@ -46,6 +46,7 @@ RSpec.describe GramsController, type: :controller do
 		        password_confirmation: 'secretPassword'
 		    )
 		    sign_in user
+		    gram_count = Gram.count
 
 			post :create, params: { gram: { message: '' } }
 			expect(response).to have_http_status(:unprocessable_entity)
