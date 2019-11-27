@@ -74,12 +74,23 @@ input {
 	margin-top: 10px;
 }
 
-.input.boolean {
+.boolean {
   	margin-left: 18px;
-  	margin-top: 5px;
+  	margin-top: 15px;
 }
 
-.input.boolean label {
+.boolean label {
   	margin-top: 5px;
   	line-height: 44px;
+}
+
+.gram-actions a {
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.comments {
+	padding: 20px;
 }
